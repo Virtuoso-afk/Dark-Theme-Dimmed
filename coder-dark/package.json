@@ -1,0 +1,24 @@
+{
+  "name": "coder-dark",
+  "displayName": "Dark-github",
+  "description": "Dark theme for github",
+  "version": "0.0.1",
+  "publisher": "theVirtuoso",
+  "keywords": ["dark theme", "github dimmed", "github dark theme", "the virtuoso", "new dark theme"],
+  "repository": {"type": "git", "url": "https://github.com/Virtuoso-afk/Dark-Themes-Dimmed.git"},
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Dimmed",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Dimmed-color-theme.json"
+      }
+    ]
+  }
+}
